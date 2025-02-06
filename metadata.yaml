@@ -1,0 +1,12 @@
+type: athena_metrics_encoding
+
+status:
+  class: extension
+  stability:
+    alpha: [extension]
+  distributions: []
+  codeowners:
+    active: ['sergei-ivanov']
+
+tests:
+  config:
