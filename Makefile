@@ -106,6 +106,10 @@ tidy:
 	rm -fr go.sum
 	$(GOCMD) mod tidy -compat=1.22.0
 
+.PHONY: toolchain
+toolchain:
+	$(GOCMD) get toolchain@none
+
 .PHONY: moddownload
 moddownload:
 	$(GOCMD) mod download
